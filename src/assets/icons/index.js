@@ -29,9 +29,11 @@ import soundoff from './soundoff.png'
 import threejs from './threejs.svg'
 import vite from './vite.svg'
 import vscode from './vscode.svg'
+import planet from "./planet.svg";
+import blobmixer from "./blobmixer.svg";
+import zajno from "./zajno.svg";
+import deveb from "./deveb.svg";
 
-
-// import ai from './ai.png'
 
 export {
     css,
@@ -65,5 +67,9 @@ export {
     threejs,
     vite,
     vscode,
+    planet,
+    blobmixer,
+    zajno,
+    deveb,
     // ai
 }

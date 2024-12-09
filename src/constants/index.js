@@ -27,6 +27,10 @@ import {
   vite,
   vscode,
   threejs,
+  planet,
+  blobmixer,
+  zajno,
+  deveb,
   // ai,
 } from "../assets/icons";
 
@@ -258,23 +262,65 @@ export const projects = [
 
 export const personalProjects = [
   {
-    name: "E-Commerce Website",
+    name: "3D Interactive Solar System",
     description:
-      "Built a full-featured e-commerce platform with React, Node.js and MongoDB. Implemented user authentication, product catalog, shopping cart and payment integration.",
-    iconUrl: "/ecommerce-icon.png",
-    theme: "bg-[#fef4f5]",
-    link: "https://ecommerce-example.com",
-    preview: "https://ecommerce-demo.vercel.app",
+      "A 3D interactive solar system created using Three.js, showcasing the planets and their movements.",
+    iconUrl: planet,
+    theme: "btn-back-blue",
+    link: "https://github.com/Roy12233444/threecode-Planet-Project",
+    preview: "https://threecode-planet-project.vercel.app/",
     isClient: true,
   },
   {
-    name: "Real Estate Portal",
+    name: "ShapeShifter 3D",
     description:
-      "Developed a real estate listing platform with property search, filters, user profiles and admin dashboard. Used React, Express and PostgreSQL.",
-    iconUrl: "/realestate-icon.png",
-    theme: "bg-[#f0f8ff]",
-    link: "https://realestate-example.com",
-    preview: "https://realestate-demo.vercel.app",
+      "A 3D shape shifter created using Three.js, showcasing the different shapes and their movements.",
+    iconUrl: blobmixer,
+    theme: "btn-back-pink",
+    link: "https://github.com/Roy12233444/blobmixersfinal",
+    preview: "https://blobmixer-pi.vercel.app/",
+    isClient: true,
+  },
+  {
+    name: "ZAJNO 3D Studio",
+    description:
+      "A 3D studio created using Three.js, showcasing the pixel movements while hovering over the screen.",
+    iconUrl: zajno,
+    theme: "btn-back-black",
+    link: "https://github.com/Roy12233444/zajnos",
+    preview: "https://zajnos.vercel.app/",
+    isClient: true,
+  },
+  {
+    name: "Threejs Deveb blob for Designer",
+    description:
+      "A creative agency with solid expertise in design & web development.",
+    iconUrl: deveb,
+    theme: "btn-back-green",
+    link: "https://github.com/Roy12233444/blobmixersfinal",
+    preview: "https://blobmixer-pi.vercel.app/",
+    isClient: true,
+  },
+
+  {
+    name: "Exoape Animation",
+    description:
+      "Global digital design studio partnering with brands and business that create exceptional digital experiences.",
+    iconUrl: blobmixer,
+    theme: "btn-back-pink",
+    link: "https://github.com/Roy12233444/exoape",
+    preview: "",
+    isClient: true,
+  },
+
+  {
+    name: "Country Search",
+    description:
+      "A website that allows users to search for countries and view information about them.",
+    iconUrl: blobmixer,
+    theme: "btn-back-orange",
+    link: "https://github.com/Roy12233444/React_Project_2024/tree/main/react_country_thapa",
+    preview: "",
     isClient: true,
   },
 ];

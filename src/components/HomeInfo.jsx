@@ -24,6 +24,11 @@ const renderContent = {
     <h1 className="sm:text-xl sm:leading-snug text-center neo-brutalism-blue py-4 px-8 text-white rounded-lg mx-5">
       Hi, I'm <span className="font-bold">Sourav Ray👋</span>
       <br />A Software Engineer from India
+      <div className='flex justify-center mt-2 items-center'>
+        <h4 className='btn-text bg-transparent font-semibold text-sm text-black px-3 py-2 uppercase rounded-md hover:bg-white/50 transition-all duration-300 ease-in-out cursor-pointer'>
+          Drag to explore
+        </h4>
+      </div>
     </h1>
   ),
   2: (
